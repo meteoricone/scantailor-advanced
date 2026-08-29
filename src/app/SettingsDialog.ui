@@ -320,6 +320,25 @@
         </widget>
        </item>
        <item>
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>Content detection</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QCheckBox" name="contentDetectionIgnorePageBoxCB">
+            <property name="toolTip">
+             <string>Search the whole image for content instead of only the area inside the page box. Useful when the page box cuts off content. The detected content box is still clipped to the page box afterwards. Re-run the Select Content stage to apply this to already processed pages.</string>
+            </property>
+            <property name="text">
+             <string>Detect content independently of the page box</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QGroupBox" name="groupBox_3">
          <property name="title">
           <string>Deviation</string>
